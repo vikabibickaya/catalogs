@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			background-color: lightgray;
+		}
+
+		.products {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 50px;
+			margin-left: 150px;
+
+		}
+
+		.products .prod {
+			height: 380px;
+			width: 250px;
+			border: 1px solid grey;
+			box-shadow: 0 0 2px grey;
+			background-color: white;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+
+		.images {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: flex-end;
+			width: 250px;
+			height: 175px;
+			box-shadow: 2px 0px 8px 1px rgb(142, 139, 139);
+		}
+
+		.images a {
+			padding-top: 0px;
+			width: 40px;
+			height: 20px;
+			background-color: black;
+			color: white;
+			text-align: center;
+			font-size: 10px;
+			font-weight: bold;
+			text-decoration: none;
+			padding-top: 5px;
+		}
+
+		.product {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+		}
+
+		h3 {
+			font-weight: lighter;
+
+		}
+
+		.catalog span {
+			color: rgb(32, 128, 32);
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		.catalog del {
+			color: black;
+			font-weight: lighter;
+
+		}
+
+		.icon {
+			margin-top: 18px;
+			margin-bottom: 18px;
+		}
+
+		.icon span {
+			color: rgb(240, 141, 12);
+		}
+
+		.icon img:nth-child(6) {
+			padding-left: 10px;
+		}
+
+		.tel {
+
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: baseline;
+			background-color: rgb(4, 108, 4);
+			width: 180px;
+			height: 32px;
+			padding-bottom: 15px;
+		}
+
+		p {
+			color: white;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="products">
+		<div class="prod">
+			<div class="images">
+				<a href="#">NEWS</a>
+				<img src="./images/foto1.png" alt="image 1" width="230px" height="150px" />
+			</div>
+			<div class="product">
+				<div class="catalog">
+					<h3>Name Brand Shoes</h3>
+					<span>$63.50 </span>
+					<span><del>&93.50</del></span>
+				</div>
+				<div class="icon">
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/звезда22.png" alt=" icon 2" width="15px" height="15px" />
+					<img src="./icon/iconsoob.png" alt=" icon 2" width="15px" height="15px" />
+
+					<span>(0 review)</span>
+				</div>
+				<div class="tel">
+					<a href="#"><img src="./icon/icons30.png" alt="icon 2" width="15px" height="15px" /></a>
+					<p>
+						Add to chart
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="prod">
+			<div class="images">
+
+				<img src="./images/foto2.png" alt="image 1" width="230px" height="150px" />
+			</div>
+			<div class="product">
+				<div class="catalog">
+					<h3>Name Brand Shoes</h3>
+					<span>$63.50 </span>
+					<span><del>&93.50</del></span>
+				</div>
+				<div class="icon">
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/звезда22.png" alt=" icon 2" width="15px" height="15px" />
+					<img src="./icon/iconsoob.png" alt=" icon 2" width="15px" height="15px" />
+
+					<span>(0 review)</span>
+				</div>
+				<div class="tel">
+					<a href="#"><img src="./icon/icons30.png" alt="icon 2" width="15px" height="15px" /></a>
+					<p>
+						Add to chart
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="prod">
+			<div class="images">
+				<a href="#">NEWS</a>
+				<img src="./images/foto3.png" alt="image 1" width="230px" height="150px" />
+			</div>
+			<div class="product">
+				<div class="catalog">
+					<h3>Name Brand Shoes</h3>
+					<span>$63.50 </span>
+					<span><del>&93.50</del></span>
+				</div>
+				<div class="icon">
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/звезда22.png" alt=" icon 2" width="15px" height="15px" />
+					<img src="./icon/iconsoob.png" alt=" icon 2" width="15px" height="15px" />
+
+					<span>(0 review)</span>
+				</div>
+				<div class="tel">
+					<a href="#"><img src="./icon/icons30.png" alt="icon 2" width="15px" height="15px" /></a>
+					<p>
+						Add to chart
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="prod">
+			<div class="images">
+
+				<img src="./images/foto4.png" alt="image 1" width="230px" height="150px" />
+			</div>
+			<div class="product">
+				<div class="catalog">
+					<h3>Name Brand Shoes</h3>
+					<span>$63.50 </span>
+					<span><del>&93.50</del></span>
+				</div>
+				<div class="icon">
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/звезда22.png" alt=" icon 2" width="15px" height="15px" />
+					<img src="./icon/iconsoob.png" alt=" icon 2" width="15px" height="15px" />
+
+					<span>(0 review)</span>
+				</div>
+				<div class="tel">
+					<a href="#"><img src="./icon/icons30.png" alt="icon 2" width="15px" height="15px" /></a>
+					<p>
+						Add to chart
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="prod">
+			<div class="images">
+				<a href="#">NEWS</a>
+				<img src="./images/foto5.png" alt="image 1" width="230px" height="150px" />
+			</div>
+			<div class="product">
+				<div class="catalog">
+					<h3>Name Brand Shoes</h3>
+					<span>$63.50 </span>
+					<span><del>&93.50</del></span>
+				</div>
+				<div class="icon">
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/звезда22.png" alt=" icon 2" width="15px" height="15px" />
+					<img src="./icon/iconsoob.png" alt=" icon 2" width="15px" height="15px" />
+
+					<span>(0 review)</span>
+				</div>
+				<div class="tel">
+					<a href="#"><img src="./icon/icons30.png" alt="icon 2" width="15px" height="15px" /></a>
+					<p>
+						Add to chart
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="prod">
+			<div class="images">
+
+				<img src="./images/foto6.png" alt="image 1" width="230px" height="150px" />
+			</div>
+			<div class="product">
+				<div class="catalog">
+					<h3>Name Brand Shoes</h3>
+					<span>$63.50 </span>
+					<span><del>&93.50</del></span>
+				</div>
+				<div class="icon">
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/звезда22.png" alt=" icon 2" width="15px" height="15px" />
+					<img src="./icon/iconsoob.png" alt=" icon 2" width="15px" height="15px" />
+
+					<span>(0 review)</span>
+				</div>
+				<div class="tel">
+					<a href="#"><img src="./icon/icons30.png" alt="icon 2" width="15px" height="15px" /></a>
+					<p>
+						Add to chart
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="prod">
+			<div class="images">
+
+				<img src="./images/foto7.png" alt="image 1" width="230px" height="150px" />
+			</div>
+			<div class="product">
+				<div class="catalog">
+					<h3>Name Brand Shoes</h3>
+					<span>$63.50 </span>
+					<span><del>&93.50</del></span>
+				</div>
+				<div class="icon">
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/звезда22.png" alt=" icon 2" width="15px" height="15px" />
+					<img src="./icon/iconsoob.png" alt=" icon 2" width="15px" height="15px" />
+
+					<span>(0 review)</span>
+				</div>
+				<div class="tel">
+					<a href="#"><img src="./icon/icons30.png" alt="icon 2" width="15px" height="15px" /></a>
+					<p>
+						Add to chart
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="prod">
+			<div class="images">
+				<a href="#">NEWS</a>
+				<img src="./images/foto8.png" alt="image 1" width="230px" height="150px" />
+			</div>
+			<div class="product">
+				<div class="catalog">
+					<h3>Name Brand Shoes</h3>
+					<span>$63.50 </span>
+					<span><del>&93.50</del></span>
+				</div>
+				<div class="icon">
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/imagesses.jpg" alt="icon 2" width="15px" height="15px" />
+					<img src="./icon/звезда22.png" alt=" icon 2" width="15px" height="15px" />
+					<img src="./icon/iconsoob.png" alt=" icon 2" width="15px" height="15px" />
+
+					<span>(0 review)</span>
+				</div>
+				<div class="tel">
+					<a href="#"><img src="./icon/icons30.png" alt="icon 2" width="15px" height="15px" /></a>
+					<p>
+						Add to chart
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
